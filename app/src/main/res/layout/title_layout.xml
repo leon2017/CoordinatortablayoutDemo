@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:layout_marginLeft="20dp"
+              android:id="@+id/ll_content"
+              android:layout_marginRight="20dp"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title_bg"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:textColor="#fff"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/ic_public_black_24dp"
+        android:text="任何地方"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/title_bg"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/ic_event_note_black_24dp"
+        android:text="任何时间"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/title_bg"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/ic_perm_contact_calendar_black_24dp"
+        android:text="房客"/>
+
+</LinearLayout>

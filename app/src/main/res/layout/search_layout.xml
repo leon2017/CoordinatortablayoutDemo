@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:background="@drawable/search_shape"
+              android:padding="10dp"
+              android:id="@+id/ll_title"
+              android:visibility="gone"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@drawable/ic_search_black_24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="任何地方-任何时间-房客"
+        android:textColor="#fff"
+        android:textSize="12dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
